@@ -7,6 +7,44 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title></title>
 </head>
+<script>
+    var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+    function isIOS() {
+        if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    function isAndroid() {
+        return (/android/i.test(userAgent));
+    }
+
+    function appendIframeWithURL(url) {
+        var iframe = document.createElement("IFRAME");
+        iframe.setAttribute("src", url);
+        document.documentElement.appendChild(iframe);
+        iframe.parentNode.removeChild(iframe);
+        iframe = null;
+    }
+
+    function sendMessageToUnity(message) {
+        if (isIOS()) {
+            appendIframeWithURL('inappbrowserbridge://' + message);
+        } else if (isAndroid()) {
+            UnityInAppBrowser.sendMessageFromJS(message);
+        } else {
+            console.log(message);
+        }
+    }
+
+    function sendShare() {
+        sendMessageToUnity("share");
+    }
+
+</script>
 <style>
     body,
     * {
@@ -17,6 +55,13 @@
 
     img {
         width: 100%;
+    }
+
+    .bt {
+        position: absolute;
+        width: 33%;
+        left: calc(50% - 15.5%);
+        cursor: pointer;
     }
 </style>
 
@@ -33,6 +78,7 @@
     <img src="" id="img9" alt="" srcset="">
     <img src="" id="img10" alt="" srcset="">
     <img src="" id="img11" alt="" srcset="">
+    <img src="../00/bt.bytes" class="bt" alt="" srcset="" onclick="sendShare();">
 </body>
 <script>
     var imgAddresses = ['01.bytes', '02.bytes', '03.bytes', '04.bytes', '05.bytes', '06.bytes', '07.bytes', '08.bytes', '09.bytes', '10.bytes', '11.bytes', '12.bytes'];
