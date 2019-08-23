@@ -3,22 +3,26 @@
         {
             "url": "https://allansamurai.github.io/cvuna/01/i.html",
             "bt_text": "Edição 1 - Um trabalho de escola",
-            "title": "Um trabalho de escola"
+            "title": "Um trabalho de escola",
+            "isNew": false
         },
         {
             "url": "https://allansamurai.github.io/cvuna/01/i.html",
             "bt_text": "Edição 2 - Um trabalho de escola 2",
-            "title": "Um trabalho de escola 2"
+            "title": "Um trabalho de escola 2",
+            "isNew": false
         },
         {
             "url": "https://allansamurai.github.io/cvuna/01/i.html",
             "bt_text": "Edição 2 - Um trabalho de escola 3",
-            "title": "Um trabalho de escola 3"
+            "title": "Um trabalho de escola 3",
+            "isNew": true
         },
         {
             "url": "https://allansamurai.github.io/cvuna/01/i.html",
             "bt_text": "Edição 2 - Um trabalho de escola 4",
-            "title": "Um trabalho de escola 4"
+            "title": "Um trabalho de escola 4",
+            "isNew": false
         }
     ]
 }
