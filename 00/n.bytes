@@ -1,0 +1,124 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "title": "",
+            "showTitle": false,
+            "body": "Preparado para desvendar o Mistério na Cidade Universitária Una? Fique ligado. Hoje, às 18h30, na Unidade Liberdade.",
+            "year": 2019,
+            "month": 8,
+            "day": 26,
+            "hour": 16,
+            "minute": 3,
+            "showHQ": true
+        },
+        {
+            "id": 2,
+            "title": "",
+            "showTitle": false,
+            "body": "Já soube que ontem desvendamos parte do Mistério na Cidade Universitária? Garanta seu exemplar da 1ª edição e aguarde a próxima!",
+            "year": 2019,
+            "month": 8,
+            "day": 27,
+            "hour": 11,
+            "minute": 0,
+            "showHQ": true
+        },
+        {
+            "id": 3,
+            "title": "",
+            "showTitle": false,
+            "body": "É hoje o dia de solucionarmos mais uma parte do Mistério na Cidade Universitária. Às 18h30, na Unidade Aimorés.",
+            "year": 2019,
+            "month": 9,
+            "day": 2,
+            "hour": 11,
+            "minute": 0,
+            "showHQ": true
+        },
+        {
+            "id": 4,
+            "title": "",
+            "showTitle": false,
+            "body": "Se você perdeu o segundo capítulo da série Mistério na Cidade Universitária, corra pra garantir seu exemplar na Unidade Aimorés.",
+            "year": 2019,
+            "month": 9,
+            "day": 3,
+            "hour": 11,
+            "minute": 0,
+            "showHQ": true
+        },
+        {
+            "id": 5,
+            "title": "",
+            "showTitle": false,
+            "body": "O Mistério na Cidade Universitária vem sendo revelado. E hoje é dia descobrir um pouco mais na Unidade João Pinheiro, a partir das 18h30.",
+            "year": 2019,
+            "month": 9,
+            "day": 9,
+            "hour": 11,
+            "minute": 0,
+            "showHQ": true
+        },
+        {
+            "id": 6,
+            "title": "",
+            "showTitle": false,
+            "body": "O Mistério que ronda a Cidade Universitária está prestes a ser esclarecido. E você ainda pode garantir a 3ª edição na Unidade João Pinheiro.",
+            "year": 2019,
+            "month": 9,
+            "day": 10,
+            "hour": 11,
+            "minute": 0,
+            "showHQ": true
+        },
+        {
+            "id": 7,
+            "title": "",
+            "showTitle": false,
+            "body": "Chegou o dia de desvendar o Mistério na Cidade Universitária. O último capítulo da trama será revelado hoje, às 18h30, na Unidade Guajajaras.",
+            "year": 2019,
+            "month": 9,
+            "day": 16,
+            "hour": 11,
+            "minute": 0,
+            "showHQ": true
+        },
+        {
+            "id": 8,
+            "title": "",
+            "showTitle": false,
+            "body": "Caso encerrado! O Mistério na Cidade Universitária chegou ao fim. Mas você ainda pode obter a última edição da série na Unidade Guajajaras.",
+            "year": 2019,
+            "month": 9,
+            "day": 17,
+            "hour": 11,
+            "minute": 0,
+            "showHQ": true
+        },
+        {
+            "id": 9,
+            "title": "",
+            "showTitle": false,
+            "body": "A gente sabe que é chato ter uma coleção desfalcada. Por isso, reservamos edições limitadas da série Mistério na Cidade Universitária. Aguarde novidades!",
+            "year": 2019,
+            "month": 9,
+            "day": 23,
+            "hour": 11,
+            "minute": 0,
+            "showHQ": true
+        },
+        {
+            "id": 10,
+            "title": "",
+            "showTitle": false,
+            "body": "Não vê a hora de completar sua coleção? Então corra! Restam poucas unidades da série Mistério na Cidade Universitária, na Unidade Liberdade.",
+            "year": 2019,
+            "month": 9,
+            "day": 24,
+            "hour": 11,
+            "minute": 0,
+            "showHQ": true
+        }
+    ]
+}
