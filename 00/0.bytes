@@ -4,6 +4,12 @@
             "url": "https://allansamurai.github.io/cvuna/01/i.html",
             "bt_text": "Edição 1 - Um trabalho de escola",
             "title": "Um trabalho de escola",
+            "isNew": false
+        },
+        {
+            "url": "https://allansamurai.github.io/cvuna/02/i.html",
+            "bt_text": "Edição 2 - Redescobrindo a região",
+            "title": "Redescobrindo a região",
             "isNew": true
         }
     ]
