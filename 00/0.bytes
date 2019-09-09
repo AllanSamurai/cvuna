@@ -10,6 +10,12 @@
             "url": "https://allansamurai.github.io/cvuna/02/i.html",
             "bt_text": "Edição 2 - Redescobrindo a região",
             "title": "Redescobrindo a região",
+            "isNew": false
+        },
+        {
+            "url": "https://allansamurai.github.io/cvuna/03/i.html",
+            "bt_text": "Edição 3 - As Ferramentas do Destino",
+            "title": "As Ferramentas do Destino",
             "isNew": true
         }
     ]

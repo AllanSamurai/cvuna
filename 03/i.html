@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+</head>
+<script>
+    var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+    function isIOS() {
+        if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    function isAndroid() {
+        return (/android/i.test(userAgent));
+    }
+
+    function appendIframeWithURL(url) {
+        var iframe = document.createElement("IFRAME");
+        iframe.setAttribute("src", url);
+        document.documentElement.appendChild(iframe);
+        iframe.parentNode.removeChild(iframe);
+        iframe = null;
+    }
+
+    function sendMessageToUnity(message) {
+        if (isIOS()) {
+            appendIframeWithURL('inappbrowserbridge://' + message);
+        } else if (isAndroid()) {
+            UnityInAppBrowser.sendMessageFromJS(message);
+        } else {
+            console.log(message);
+        }
+    }
+
+    function sendShare() {
+        sendMessageToUnity("share");
+    }
+
+</script>
+<style>
+    body,
+    * {
+        padding: 0;
+        border: 0;
+        margin: 0
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .bt {
+        position: relative;
+        width: 33%;
+        left: calc(50% - 15.5%);
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <img src="" id="img0" alt="" srcset="">
+    <img src="" id="img1" alt="" srcset="">
+    <img src="" id="img2" alt="" srcset="">
+    <img src="" id="img3" alt="" srcset="">
+    <img src="" id="img4" alt="" srcset="">
+    <img src="" id="img5" alt="" srcset="">
+    <img src="" id="img6" alt="" srcset="">
+    <img src="" id="img7" alt="" srcset="">
+    <img src="" id="img8" alt="" srcset="">
+    <img src="" id="img9" alt="" srcset="">
+    <img src="" id="img10" alt="" srcset="">
+    <img src="" id="img11" alt="" srcset="">
+    <img src="" id="img12" alt="" srcset="">
+    <img src="../00/bt.bytes" class="bt" alt="" srcset="" onclick="sendShare();">
+</body>
+<script>
+    var imgAddresses = ['00.bytes', '01.bytes', '02.bytes', '03.bytes', '04.bytes', '05.bytes', '06.bytes', '07.bytes', '08.bytes', '09.bytes', '10.bytes', '11.bytes', '12.bytes'];
+
+    function loadImage(counter) {
+        if (counter == imgAddresses.length) { return; }
+
+        var I = document.getElementById("img" + counter);
+
+        I.onload = I.onerror = function () { loadImage(counter + 1); }
+
+        I.src = imgAddresses[counter];
+    }
+
+    loadImage(0);
+
+</script>
+
+</html>
