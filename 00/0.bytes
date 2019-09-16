@@ -16,6 +16,12 @@
             "url": "https://allansamurai.github.io/cvuna/03/i.html",
             "bt_text": "Edição 3 - As ferramentas do destino",
             "title": "As ferramentas do destino",
+            "isNew": false
+        },
+        {
+            "url": "https://allansamurai.github.io/cvuna/04/i.html",
+            "bt_text": "Edição 4 - O fim do mistério",
+            "title": "O fim do mistério",
             "isNew": true
         }
     ]
